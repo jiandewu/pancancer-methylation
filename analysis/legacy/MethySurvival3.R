@@ -1,5 +1,5 @@
 rm(list = ls())
-# setwd("/external/prjs/Analysis/ColonRectum/MethySurvival")
+# setwd("../colon-rectum")
 load("./PRAD/Rdata/step2_filtered_pd_myNorm.Rdata")
 load("./BRCA/Rdata/step2_filtered_pd_myNorm(2).Rdata")
 load("./LUNG/Rdata/step2_filtered_pd_myNorm.Rdata")

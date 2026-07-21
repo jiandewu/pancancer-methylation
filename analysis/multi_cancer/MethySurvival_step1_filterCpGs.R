@@ -16,18 +16,11 @@ options(stringsAsFactors = F)
 
 rm(list = ls())
 
-cancer.top <- "BRCA" # Breast Invasive Carcinoma
-cancername <- "TNBC"
-cancer.top <- "COAD" # Colon Adenocarcinoma
-cancer.top <- "LUAD" # Lung Adenocarcinoma
-cancer.top <- "PRAD" # Prostate Adenocarcinoma
-
-if(!exists('cancername')){
-  cancername <- cancer.top
-}
+cancer.top <- Sys.getenv("TCGA_CANCER", unset = "PRAD")
+cancername <- Sys.getenv("ANALYSIS_COHORT", unset = cancer.top)
 
 prj.name <- "Tumor.vs.Ctrl"
-path <- "./NotOnlyPairSample"
+path <- Sys.getenv("PANCANCER_WORK_DIR", unset = "./multi_cancer")
 workingpath <- paste(path,cancername,sep='/')
 
 if(!dir.exists(workingpath))dir.create(workingpath)

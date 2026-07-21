@@ -1,0 +1,66 @@
+# R and Python state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+__pycache__/
+*.py[cod]
+
+# Local environments and credentials
+renv/library/
+renv/staging/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded, private, and participant-level data
+data/
+raw_data/
+**/raw_data/
+clinical/
+references/
+*.Rdata
+*.rdata
+*.RDS
+*.rds
+*.idat
+*.idat.gz
+*.tsv
+*.csv
+*.csv.gz
+
+# Generated analysis outputs
+Rdata/
+**/Rdata/
+figure/
+figures/
+**/figure/
+**/figures/
+results/
+output/
+outputs/
+*.png
+*.svg
+*.Rout
+*.log
+
+# Reports and manuscripts
+*.html
+*.docx
+*.pdf
+**/report/
+**/reports/
+**/manus/
+**/manuscript/
+private-documents/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp

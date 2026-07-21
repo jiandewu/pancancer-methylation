@@ -9,7 +9,7 @@ rm(list = ls())
 cancernames <- c("BRCA","COAD","LUAD","PRAD")
 
 prj.name <- "Tumor.vs.Ctrl"
-path <- "./NotOnlyPairSample/manus"
+path <- "./multi_cancer/manus"
 setwd(path)
 
 deltaBeta_t <- 0.3

@@ -1,0 +1,34 @@
+name: tcga-pancancer-methylation
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - matplotlib
+  - opencv
+  - r-base=4.4
+  - r-biocmanager
+  - r-data.table
+  - r-dplyr
+  - r-factoextra
+  - r-factominer
+  - r-ggplot2
+  - r-gplots
+  - r-gridextra
+  - r-latex2exp
+  - r-pheatmap
+  - r-plyr
+  - r-rlist
+  - r-sqldf
+  - r-stringr
+  - r-survival
+  - r-survminer
+  - r-textshape
+  - r-tibble
+  - r-tidyr
+  - r-tidyverse
+  - r-venndiagram
+  - bioconductor-dmrcate
+  - bioconductor-impute
+  - bioconductor-tcgabiolinks
+  - bioconductor-trackviewer

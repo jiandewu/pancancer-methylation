@@ -16,10 +16,10 @@ rows = 2
 columns = 2
   
 # reading images
-Image1 = cv2.imread('./NotOnlyPairSample/BRCA/figure/Tumor.vs.Ctrl_DMP_thr_p1e-15_dB0.3_heatmap.png')
-Image2 = cv2.imread('./NotOnlyPairSample/COAD/figure/Tumor.vs.Ctrl_DMP_thr_p1e-15_dB0.3_heatmap.png')
-Image3 = cv2.imread('./NotOnlyPairSample/LUAD/figure/Tumor.vs.Ctrl_DMP_thr_p1e-15_dB0.3_heatmap.png')
-Image4 = cv2.imread('./NotOnlyPairSample/PRAD/figure/Tumor.vs.Ctrl_DMP_thr_p1e-15_dB0.3_heatmap.png')
+Image1 = cv2.imread('./multi_cancer/BRCA/figure/Tumor.vs.Ctrl_DMP_thr_p1e-15_dB0.3_heatmap.png')
+Image2 = cv2.imread('./multi_cancer/COAD/figure/Tumor.vs.Ctrl_DMP_thr_p1e-15_dB0.3_heatmap.png')
+Image3 = cv2.imread('./multi_cancer/LUAD/figure/Tumor.vs.Ctrl_DMP_thr_p1e-15_dB0.3_heatmap.png')
+Image4 = cv2.imread('./multi_cancer/PRAD/figure/Tumor.vs.Ctrl_DMP_thr_p1e-15_dB0.3_heatmap.png')
 
 # Adds a subplot at the 1st position
 fig.add_subplot(rows, columns, 1)
